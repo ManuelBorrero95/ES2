@@ -1,0 +1,139 @@
+:root {
+  --dark-grey: #242f3e;
+  --light-grey: #384758;
+  --amazon-orange: #ec6913;
+  --primary-color: #eaeded;
+}
+
+
+main{
+ 
+    padding: 0 15px;
+}
+
+body {
+  color: white;
+  background-color: var(--primary-color);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;;
+}
+ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin:0
+}
+ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul li a
+{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+footer {
+  height: 200px;
+}
+
+.dark-grey {
+    background-color: var(--dark-grey);
+}
+.light-grey {
+    background-color: var(--light-grey);
+}
+
+.header-logo-container {
+    text-align: left;
+    padding: 2px 15px;
+    margin: 0;
+}
+
+.header-logo-container img
+{
+    height: 40px;
+    width: 100px;
+
+}
+.small-container {
+  height: 20px;
+}
+.small-container p {
+  text-align: center;
+}
+
+.small-container.orange {
+  background-color: var(--amazon-orange);
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+.small-container.light-grey {
+  background-color: var(--light-grey);
+}
+.holiday-promotion-container {
+  height: 100px;
+  background-image: url("../Assest/bg-image.png");
+  text-align: center;
+  padding-top: 1em;
+}
+.holiday-promotion-container p:first-child {
+    font-weight: 600;
+    font-size: 18px;
+}
+.holiday-promotion-container p:last-child {
+    font-weight: 600;
+    font-size: 12px;
+}
+.big-container {
+  height: 350px;
+  background-color: white;
+}
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.big-container.slide-show {
+  padding-top: 2px;
+}
+.big-container.slide-show p {
+  text-align: left;
+  margin-left: 20px;
+}
+.big-container.slide-show img {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.big-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.text-black {
+  color: black;
+}
+
+.footer-logo-container {
+
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo-container img {
+  height: 50px;
+  width: 150px;
+}
+
+
+
+
