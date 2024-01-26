@@ -5,7 +5,6 @@
   --primary-color: #eaeded;
 }
 
-
 main{
  
     padding: 0 15px;
@@ -17,7 +16,8 @@ body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
-  margin: 0;;
+  margin: 0;
+  font-weight: 200;
 }
 ul{
     list-style: none;
@@ -134,6 +134,13 @@ footer {
   width: 150px;
 }
 
-
-
+footer div a 
+{
+    text-decoration: underline;
+    color: white;
+}
+.link-blue{
+    font-size: 12px;
+    color: #167A8D;
+}
 
